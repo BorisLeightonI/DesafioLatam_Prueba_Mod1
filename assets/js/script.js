@@ -6,6 +6,7 @@ $(function() {
         alert(gato);     
         $('html, body').animate({scrollTop: $(gato).offset().top}, 800, function(){
         window.location.hash=gato; 
+        alert(gato)
             });
         } // Fin del if    
     })

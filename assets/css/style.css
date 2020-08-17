@@ -14,7 +14,7 @@ body{
 .navbar-light .navbar-brand{
     color: var(--textNavFoot);
 }
-.navbar-brand{
+.navbar-brand, .name{
     font-family: 'Lobster', cursive;
     font-size: 30px;
 }
@@ -33,4 +33,9 @@ section#about .row{
 #dospasiones{
     display: flex;
 }
-
+div.card{
+    transition: transform 500ms;
+}
+div.card:hover{
+    transform: scale(1.1);
+}
